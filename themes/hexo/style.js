@@ -13,7 +13,7 @@ const Style = () => {
   const legacyThemeColor = siteConfig('HEXO_THEME_COLOR', '#000000', CONFIG)
   const primary = siteConfig('HEXO_COLOR_PRIMARY', legacyThemeColor, CONFIG)
   const primaryDark = siteConfig('HEXO_COLOR_PRIMARY_DARK', '#000000', CONFIG)
-  const background = siteConfig('HEXO_COLOR_BG', '#f5f5f5', CONFIG)
+  const background = siteConfig('HEXO_COLOR_BG', '#000000', CONFIG)
   const backgroundDark = siteConfig('HEXO_COLOR_BG_DARK', '#000000', CONFIG)
   const surface = siteConfig('HEXO_COLOR_CARD', '#ffffff', CONFIG)
   const surfaceDark = siteConfig('HEXO_COLOR_CARD_DARK', '#f5f5f5', CONFIG)
