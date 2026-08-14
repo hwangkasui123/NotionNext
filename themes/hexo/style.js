@@ -10,7 +10,7 @@ import CONFIG from './config'
  */
 const Style = () => {
   // 从配置中获取主题色，如果没有配置则使用默认值 #928CEE
-  const legacyThemeColor = siteConfig('HEXO_THEME_COLOR', '#928CEE', CONFIG)
+  const legacyThemeColor = siteConfig('HEXO_THEME_COLOR', '#000000', CONFIG)
   const primary = siteConfig('HEXO_COLOR_PRIMARY', legacyThemeColor, CONFIG)
   const primaryDark = siteConfig('HEXO_COLOR_PRIMARY_DARK', '#000000', CONFIG)
   const background = siteConfig('HEXO_COLOR_BG', '#f5f5f5', CONFIG)
