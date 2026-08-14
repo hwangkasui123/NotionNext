@@ -16,7 +16,7 @@ const Style = () => {
   const background = siteConfig('HEXO_COLOR_BG', '#f5f5f5', CONFIG)
   const backgroundDark = siteConfig('HEXO_COLOR_BG_DARK', '#000000', CONFIG)
   const surface = siteConfig('HEXO_COLOR_CARD', '#ffffff', CONFIG)
-  const surfaceDark = siteConfig('HEXO_COLOR_CARD_DARK', '#101414', CONFIG)
+  const surfaceDark = siteConfig('HEXO_COLOR_CARD_DARK', '#f5f5f5', CONFIG)
   const title = siteConfig('HEXO_COLOR_TITLE', '#4b5563', CONFIG)
   const titleDark = siteConfig('HEXO_COLOR_TITLE_DARK', '#f3f4f6', CONFIG)
   const text = siteConfig('HEXO_COLOR_TEXT', '#374151', CONFIG)
